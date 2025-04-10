@@ -71,13 +71,17 @@ i18n:
 owner: potatoenergy
 repo: status
 sites:
-  - name: chat.potatoenergy.ru
+  - method: HEAD
+    name: chat.potatoenergy.ru [head]
     url: https://chat.potatoenergy.ru/health
-  - name: cloud.potatoenergy.ru
+  - method: HEAD
+    name: cloud.potatoenergy.ru [head]
     url: https://cloud.potatoenergy.ru/ocs/v2.php/apps/serverinfo/api/v1/info
-  - name: potatoenergy.ru
+  - method: HEAD
+    name: potatoenergy.ru [head]
     url: https://potatoenergy.ru/search
-  - name: social.potatoenergy.ru
+  - method: HEAD
+    name: social.potatoenergy.ru [head]
     url: https://social.potatoenergy.ru/health
   - check: tcp-ping
     name: mindustry-server [port]
