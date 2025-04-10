@@ -1,7 +1,7 @@
 ---
 name: Maintenance Event
 about: Schedule a work window
-title: "[Scheduled Maintenance] Site down for Maintenance"
+title: "[🚧]Сайт закрыт на техническое обслуживание"
 labels: maintenance
 assignees: ''
 
@@ -13,5 +13,5 @@ end: 2021-08-24T14:00:00.220Z
 expectedDown: google, hacker-news
 -->
 
-**Additional context**
-Who/what/when/where/why is this maintenance happening
+**Дополнительный контекст**
+Кто/что/когда/где/почему проводится обслуживание
