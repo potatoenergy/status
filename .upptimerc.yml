@@ -4,7 +4,7 @@ assignees:
 commitMessages:
   graphsUpdate: ':bento:graphs: update'
   readmeContent: ':pencil:README: update'
-  statusChange: $EMOJI:$SITE_NAME is $STATUS ($RESPONSE_CODE in $RESPONSE_TIME ms)
+  statusChange: '$EMOJI: $SITE_NAME is $STATUS ($RESPONSE_CODE in $RESPONSE_TIME ms)'
   summaryJson: ':card_file_box:summary: update'
 i18n:
   activeIncidentSummary: 'Создан $DATE, сообщений: $POSTS'
@@ -71,17 +71,13 @@ i18n:
 owner: potatoenergy
 repo: status
 sites:
-  - method: HEAD
-    name: HEAD chat.potatoenergy.ru
+  - name: chat.potatoenergy.ru
     url: https://chat.potatoenergy.ru/health
-  - method: HEAD
-    name: HEAD cloud.potatoenergy.ru
+  - name: cloud.potatoenergy.ru
     url: https://cloud.potatoenergy.ru/ocs/v2.php/apps/serverinfo/api/v1/info
-  - method: HEAD
-    name: HEAD potatoenergy.ru
+  - name: potatoenergy.ru
     url: https://potatoenergy.ru/search
-  - method: HEAD
-    name: HEAD social.potatoenergy.ru
+  - name: social.potatoenergy.ru
     url: https://social.potatoenergy.ru/health
   - check: tcp-ping
     name: mindustry-server
