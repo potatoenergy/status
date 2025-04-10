@@ -7,13 +7,14 @@ commitMessages:
   statusChange: ':stethoscope:$SITE_NAME: $STATUS ($RESPONSE_CODE in $RESPONSE_TIME ms)'
   summaryJson: ':card_file_box:summary: update'
 i18n:
+  # degraded: Частичный сбой
+  # down: Недоступно
+  # up: Доступно
   activeIncidentSummary: 'Создан $DATE, сообщений: $POSTS'
   activeIncidents: Активные инциденты
   allSystemsOperational: Все системы работают штатно
   averageResponseTime: 'Среднее время ответа: $TIME мс'
   averageResponseTimeTitle: Среднее время ответа
-  degraded: Частичный сбой
-  down: Недоступно
   duration: Длительность
   duration1Y: 1 год
   duration24H: 24 ч
@@ -67,7 +68,6 @@ i18n:
   sevelDayResponseTime: Динамика ответов за 7 дней
   startedAt: Начато
   startsAt: Запланировано
-  up: Доступно
 owner: potatoenergy
 repo: status
 sites:
