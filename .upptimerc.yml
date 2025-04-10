@@ -17,7 +17,7 @@ sites:
     url: https://cloud.potatoenergy.ru/ocs/v2.php/apps/serverinfo/api/v1/info
   - method: HEAD
     name: HEAD potatoenergy.ru
-    url: https://potatoenergy.ru/sitemap.xml
+    url: https://potatoenergy.ru/search
   - method: HEAD
     name: HEAD social.potatoenergy.ru
     url: https://social.potatoenergy.ru/health
