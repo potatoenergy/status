@@ -5,17 +5,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/chat.potatoenergy.ru.ico",
     "slug": "chat-potatoenergy-ru-head",
     "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "98.87%",
+    "uptimeDay": "98.87%",
+    "uptimeWeek": "98.87%",
+    "uptimeMonth": "98.87%",
+    "uptimeYear": "98.87%",
     "time": 798,
     "timeDay": 798,
     "timeWeek": 798,
     "timeMonth": 798,
     "timeYear": 798,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-04-10": 5
+    }
   },
   {
     "name": "cloud.potatoenergy.ru [get]",
@@ -23,18 +25,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/cloud.potatoenergy.ru.ico",
     "slug": "cloud-potatoenergy-ru-get",
     "status": "down",
-    "uptime": "35.58%",
-    "uptimeDay": "35.58%",
-    "uptimeWeek": "35.58%",
-    "uptimeMonth": "35.58%",
-    "uptimeYear": "35.58%",
+    "uptime": "96.99%",
+    "uptimeDay": "96.99%",
+    "uptimeWeek": "96.99%",
+    "uptimeMonth": "96.99%",
+    "uptimeYear": "96.99%",
     "time": 2668,
     "timeDay": 2668,
     "timeWeek": 2668,
     "timeMonth": 2668,
     "timeYear": 2668,
     "dailyMinutesDown": {
-      "2025-04-10": 7
+      "2025-04-10": 11
     }
   },
   {
@@ -43,17 +45,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/potatoenergy.ru.ico",
     "slug": "potatoenergy-ru-head",
     "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "98.98%",
+    "uptimeDay": "98.98%",
+    "uptimeWeek": "98.98%",
+    "uptimeMonth": "98.98%",
+    "uptimeYear": "98.98%",
     "time": 730,
     "timeDay": 730,
     "timeWeek": 730,
     "timeMonth": 730,
     "timeYear": 730,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-04-10": 4
+    }
   },
   {
     "name": "social.potatoenergy.ru [head]",
@@ -61,17 +65,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/social.potatoenergy.ru.ico",
     "slug": "social-potatoenergy-ru-head",
     "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "99.03%",
+    "uptimeDay": "99.03%",
+    "uptimeWeek": "99.03%",
+    "uptimeMonth": "99.03%",
+    "uptimeYear": "99.03%",
     "time": 1022,
     "timeDay": 1022,
     "timeWeek": 1022,
     "timeMonth": 1022,
     "timeYear": 1022,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-04-10": 4
+    }
   },
   {
     "name": "mindustry-server [port]",
@@ -79,17 +85,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "mindustry-server-port",
     "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "99.53%",
+    "uptimeDay": "99.53%",
+    "uptimeWeek": "99.53%",
+    "uptimeMonth": "99.53%",
+    "uptimeYear": "99.53%",
     "time": 218,
     "timeDay": 218,
     "timeWeek": 218,
     "timeMonth": 218,
     "timeYear": 218,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-04-10": 3
+    }
   },
   {
     "name": "minecraft-server [port]",
@@ -97,17 +105,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "minecraft-server-port",
     "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "99.76%",
+    "uptimeDay": "99.76%",
+    "uptimeWeek": "99.76%",
+    "uptimeMonth": "99.76%",
+    "uptimeYear": "99.76%",
     "time": 192,
     "timeDay": 192,
     "timeWeek": 192,
     "timeMonth": 192,
     "timeYear": 192,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-04-10": 1
+    }
   },
   {
     "name": "connect.potatoenergy.ru [ping]",
@@ -115,17 +125,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "connect-potatoenergy-ru-ping",
     "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "99.98%",
+    "uptimeDay": "99.98%",
+    "uptimeWeek": "99.98%",
+    "uptimeMonth": "99.98%",
+    "uptimeYear": "99.98%",
     "time": 167,
     "timeDay": 167,
     "timeWeek": 167,
     "timeMonth": 167,
     "timeYear": 167,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-04-10": 0
+    }
   },
   {
     "name": "potatoenergy.ru [ping]",
