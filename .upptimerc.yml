@@ -2,16 +2,16 @@ owner: potatoenergy
 repo: status
 sites:
   - name: HEAD chat.potatoenergy.ru
-    url: https://chat.potatoenergy.ru/auth
+    url: https://chat.potatoenergy.ru/health
     method: HEAD
   - name: HEAD cloud.potatoenergy.ru
-    url: https://cloud.potatoenergy.ru/login
+    url: https://cloud.potatoenergy.ru/ocs/v2.php/apps/serverinfo/api/v1/info
     method: HEAD
   - name: HEAD potatoenergy.ru
-    url: https://potatoenergy.ru/search
+    url: https://potatoenergy.ru/sitemap.xml
     method: HEAD
   - name: HEAD social.potatoenergy.ru
-    url: https://social.potatoenergy.ru/auth/sign_in
+    url: https://social.potatoenergy.ru/health
     method: HEAD
   - name: mindustry-server
     check: "tcp-ping"
@@ -29,8 +29,8 @@ sites:
     url: potatoenergy.ru
 commitMessages:
   readmeContent: ":pencil:README: update"
-  summaryJson: ":card_file_box:summary: update Update"
-  statusChange: "$EMOJI$SITE_NAME is $STATUS ($RESPONSE_CODE in $RESPONSE_TIME ms)"
+  summaryJson: ":card_file_box:summary: update"
+  statusChange: "$EMOJI:$SITE_NAME is $STATUS ($RESPONSE_CODE in $RESPONSE_TIME ms)"
   graphsUpdate: ":bento:graphs: update"
 assignees:
   - ponfertato
