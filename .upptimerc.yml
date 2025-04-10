@@ -1,41 +1,42 @@
+---
+assignees:
+  - ponfertato
+commitMessages:
+  graphsUpdate: ':bento:graphs: update'
+  readmeContent: ':pencil:README: update'
+  statusChange: $EMOJI:$SITE_NAME is $STATUS ($RESPONSE_CODE in $RESPONSE_TIME ms)
+  summaryJson: ':card_file_box:summary: update'
 owner: potatoenergy
 repo: status
 sites:
-  - name: HEAD chat.potatoenergy.ru
+  - method: HEAD
+    name: HEAD chat.potatoenergy.ru
     url: https://chat.potatoenergy.ru/health
-    method: HEAD
-  - name: HEAD cloud.potatoenergy.ru
+  - method: HEAD
+    name: HEAD cloud.potatoenergy.ru
     url: https://cloud.potatoenergy.ru/ocs/v2.php/apps/serverinfo/api/v1/info
-    method: HEAD
-  - name: HEAD potatoenergy.ru
+  - method: HEAD
+    name: HEAD potatoenergy.ru
     url: https://potatoenergy.ru/sitemap.xml
-    method: HEAD
-  - name: HEAD social.potatoenergy.ru
+  - method: HEAD
+    name: HEAD social.potatoenergy.ru
     url: https://social.potatoenergy.ru/health
-    method: HEAD
-  - name: mindustry-server
-    check: "tcp-ping"
-    url: connect.potatoenergy.ru
+  - check: tcp-ping
+    name: mindustry-server
     port: 6567
-  - name: minecraft-server
-    check: "tcp-ping"
     url: connect.potatoenergy.ru
+  - check: tcp-ping
+    name: minecraft-server
     port: 25565
-  - name: PING connect.potatoenergy.ru
-    check: "tcp-ping"
     url: connect.potatoenergy.ru
-  - name: PING potatoenergy.ru
-    check: "tcp-ping"
+  - check: tcp-ping
+    name: PING connect.potatoenergy.ru
+    url: connect.potatoenergy.ru
+  - check: tcp-ping
+    name: PING potatoenergy.ru
     url: potatoenergy.ru
-commitMessages:
-  readmeContent: ":pencil:README: update"
-  summaryJson: ":card_file_box:summary: update"
-  statusChange: "$EMOJI:$SITE_NAME is $STATUS ($RESPONSE_CODE in $RESPONSE_TIME ms)"
-  graphsUpdate: ":bento:graphs: update"
-assignees:
-  - ponfertato
-user-agent: potatoenergy
 status-website:
   cname: status.potatoenergy.ru
   logoUrl: https://avatars.githubusercontent.com/u/137938438?s=200&v=4
   name: Potato Energy
+user-agent: potatoenergy
