@@ -1,40 +1,42 @@
 ---
-name: Bug report
+name: Bug Report
 about: Create a report to help us improve
 title: ''
 labels: 'bug'
-assignees: 'AnandChowdhary'
+assignees: '[ponfertato]'
 
 ---
 
 <!-- If you have a question, you should use Discussions instead: https://github.com/orgs/upptime/discussions -->
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+**Описание ошибки**.
+Четкое и краткое описание ошибки.
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+**Воспроизвести**
+Шаги для воспроизведения поведения:
+1. Перейдите в '...'
+2. Нажмите на '....'.
+3. Прокрутите вниз до '....'.
+4. Увидеть ошибку
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+**Ожидаемое поведение**
+Четкое и краткое описание того, что вы ожидали увидеть.
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+**Снимки экрана**.
+Если применимо, добавьте скриншоты, чтобы объяснить проблему.
 
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
+**Десктоп (пожалуйста, заполните следующую информацию):**.
+ - ОС: [например, iOS].
+ - Браузер [например, chrome, safari]
+ - Версия [например, 22]
 
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
+**Смартфон (пожалуйста, заполните следующую информацию):**
+ - Устройство: [например, iPhone6]
+ - ОС: [например, iOS8.1]
+ - Браузер [например, стоковый браузер, Safari]
+ - Версия [например, 22]
 
-**Additional context**
-Add any other context about the problem here.
+**Дополнительный контекст**
+Добавьте сюда любые другие сведения о проблеме.
+
+Переведено с помощью DeepL.com (бесплатная версия)
