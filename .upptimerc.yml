@@ -74,9 +74,11 @@ sites:
   - method: HEAD
     name: chat.potatoenergy.ru [head]
     url: https://chat.potatoenergy.ru/health
-  - method: HEAD
-    name: cloud.potatoenergy.ru [head]
+  - method: GET
+    name: cloud.potatoenergy.ru [get]
     url: https://cloud.potatoenergy.ru/login
+    expectedStatusCodes:
+      - 401
   - method: HEAD
     name: potatoenergy.ru [head]
     url: https://potatoenergy.ru/search
