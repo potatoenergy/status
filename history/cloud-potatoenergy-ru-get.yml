@@ -1,7 +1,7 @@
 url: https://cloud.potatoenergy.ru/login
-status: down
-code: 502
-responseTime: 2003
-lastUpdated: 2025-04-17T23:18:41.485Z
+status: up
+code: 200
+responseTime: 3561
+lastUpdated: 2025-04-18T05:09:57.468Z
 startTime: 2025-04-10T15:13:04.067Z
 generator: Upptime <https://github.com/upptime/upptime>
