@@ -119,6 +119,10 @@ sites:
   - check: tcp-ping
     name: potatoenergy.ru [ping]
     url: potatoenergy.ru
+  - check: tcp-ping
+    name: valheim-server [port]
+    port: 2456
+    url: connect.potatoenergy.ru
 status-website:
   cname: status.potatoenergy.ru
   introTitle: 🕒 Проект работает ежедневно с 08:00 по 00:00.
