@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 1580,
-    "timeDay": 1580,
-    "timeWeek": 1580,
-    "timeMonth": 1580,
-    "timeYear": 1580,
+    "time": 1543,
+    "timeDay": 1543,
+    "timeWeek": 1543,
+    "timeMonth": 1543,
+    "timeYear": 1543,
     "dailyMinutesDown": {}
   },
   {
@@ -28,11 +28,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 1566,
-    "timeDay": 1566,
-    "timeWeek": 1566,
-    "timeMonth": 1566,
-    "timeYear": 1566,
+    "time": 1497,
+    "timeDay": 1497,
+    "timeWeek": 1497,
+    "timeMonth": 1497,
+    "timeYear": 1497,
     "dailyMinutesDown": {}
   },
   {
@@ -46,11 +46,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 3768,
-    "timeDay": 3768,
-    "timeWeek": 3768,
-    "timeMonth": 3768,
-    "timeYear": 3768,
+    "time": 3686,
+    "timeDay": 3686,
+    "timeWeek": 3686,
+    "timeMonth": 3686,
+    "timeYear": 3686,
     "dailyMinutesDown": {}
   },
   {
@@ -64,11 +64,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 1246,
-    "timeDay": 1246,
-    "timeWeek": 1246,
-    "timeMonth": 1246,
-    "timeYear": 1246,
+    "time": 1235,
+    "timeDay": 1235,
+    "timeWeek": 1235,
+    "timeMonth": 1235,
+    "timeYear": 1235,
     "dailyMinutesDown": {}
   },
   {
@@ -82,11 +82,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "0.00%",
-    "time": 173,
-    "timeDay": 178,
-    "timeWeek": 178,
-    "timeMonth": 178,
-    "timeYear": 173,
+    "time": 170,
+    "timeDay": 172,
+    "timeWeek": 172,
+    "timeMonth": 172,
+    "timeYear": 170,
     "dailyMinutesDown": {
       "2025-04-10": 224
     }
@@ -103,12 +103,30 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "0.00%",
     "time": 168,
-    "timeDay": 173,
-    "timeWeek": 173,
-    "timeMonth": 173,
+    "timeDay": 172,
+    "timeWeek": 172,
+    "timeMonth": 172,
     "timeYear": 168,
     "dailyMinutesDown": {
       "2025-04-10": 223
     }
+  },
+  {
+    "name": "API",
+    "url": "connect.potatoenergy.ru",
+    "icon": "https://icons.duckduckgo.com/ip3/null.ico",
+    "slug": "api",
+    "status": "up",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 135,
+    "timeDay": 135,
+    "timeWeek": 135,
+    "timeMonth": 135,
+    "timeYear": 135,
+    "dailyMinutesDown": {}
   }
 ]
