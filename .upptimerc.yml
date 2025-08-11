@@ -7,52 +7,106 @@ commitMessages:
   statusChange: ':stethoscope:$SITE_NAME: $STATUS ($RESPONSE_CODE in $RESPONSE_TIME ms)'
   summaryJson: ':card_file_box:summary: update'
 i18n:
+  activeIncidentSummary: 'Создан $DATE, сообщений: $POSTS'
+  activeIncidents: Активные инциденты
+  allSystemsOperational: Все системы работают штатно
+  averageResponseTime: 'Среднее время ответа: $TIME мс'
+  averageResponseTimeTitle: Среднее время ответа
+  degraded: Частичный сбой
+  down: Недоступно
+  duration: Длительность
+  duration1Y: 1 год
+  duration24H: 24 ч
+  duration30D: 30 дн
+  duration7D: 7 дн
+  durationAll: Всё
+  durationMin: $DURATION мин
+  errorHome: На главную
+  errorIntro: Не удалось получить данные о статусе
+  errorText: Попробуйте позже
+  errorTitle: Ошибка
   footer: ''
+  incidentBack: ← Ко всем инцидентам
+  incidentClosedAt: Закрыт
+  incidentCommentSummary: 'Опубликовано $DATE, автор: $AUTHOR'
+  incidentCompleted: Завершён
+  incidentDetails: Подробности инцидента
+  incidentFixed: Исправлен
+  incidentOngoing: Активен
+  incidentOpenedAt: Открыт
+  incidentReport: 'Отчёт об инциденте #$NUMBER →'
+  incidentScheduled: Запланирован
+  incidentTitle: Детали инцидента $NUMBER
+  incidentViewOnGitHub: Просмотреть и подписаться на GitHub
+  liveStatus: Текущий статус
+  loading: Загрузка...
+  locale: ru-RU
+  ms: мс
+  navGitHub: GitHub
+  overallUptime: 'Общая доступность: $UPTIME'
+  overallUptimeTitle: Общая доступность
+  pastIncidents: Завершённые инциденты
+  pastIncidentsResolved: Решено за $MINUTES минут ($POSTS сообщений)
+  pastScheduledMaintenance: Завершённые работы
+  rateLimitExceededCopyPastePAT: 'Вставьте ваш токен:'
+  rateLimitExceededErrorFix: Подождите час или добавьте персональный токен GitHub для 5000 запросов/час.
+  rateLimitExceededErrorHowCanFix: Как исправить?
+  rateLimitExceededErrorMeaning: Сайт использует GitHub API с лимитом 60 запросов/час с одного IP.
+  rateLimitExceededGeneratePAT: Создать персональный токен
+  rateLimitExceededGitHubPAT: GitHub-токен
+  rateLimitExceededHasSet: Токен активирован
+  rateLimitExceededIntro: Вы превысили лимит запросов в час. Подождите или используйте GitHub-токен для продолжения.
+  rateLimitExceededRemoveToken: Удалить токен
+  rateLimitExceededSaveToken: Сохранить
+  rateLimitExceededTitle: Превышен лимит запросов
+  rateLimitExceededWhatDoesErrorMean: Что это значит?
+  responseTimeMs: Время ответа (мс)
+  scheduledMaintenance: Плановые работы
+  scheduledMaintenanceSummaryStarted: Начато $DATE ($DURATION мин)
+  scheduledMaintenanceSummaryStarts: Запланировано $DATE ($DURATION мин)
+  sevelDayResponseTime: Динамика ответов за 7 дней
+  startedAt: Начато
+  startsAt: Запланировано
+  up: Доступно
 owner: potatoenergy
 repo: status
 sites:
-  - name: Open WebUI
-    method: POST
-    url: https://chat.potatoenergy.ru/health
-    headers:
-      - "Content-Type: application/json"
-    body: '{"status":true}'
   - expectedStatusCodes:
       - 200
-      - 201
-      - 202
-      - 203
-      - 200
-      - 204
-      - 205
-      - 206
-      - 207
-      - 208
-      - 226
-      - 300
-      - 301
       - 302
       - 303
-      - 304
-      - 305
-      - 306
-      - 307
-      - 308
+      - 405
+    method: GET
+    name: Open WebUI
+    slug: open-webui
+    url: https://chat.potatoenergy.ru/health
+  - expectedStatusCodes:
+      - 200
+      - 302
+      - 303
       - 401
     method: GET
     name: Nextcloud
+    slug: nextcloud
     url: https://cloud.potatoenergy.ru/login
   - method: HEAD
     name: Mastodon
+    slug: mastodon
     url: https://social.potatoenergy.ru/health
   - check: tcp-ping
     name: Mindustry
     port: 6567
+    slug: mindustry-server
     url: connect.potatoenergy.ru
   - check: tcp-ping
     name: Minecraft
     port: 25565
+    slug: minecraft-server
     url: connect.potatoenergy.ru
+  - method: GET
+    name: Grafana
+    slug: grafana
+    url: https://grafana.potatoenergy.ru/api/health
 status-website:
   cname: status.potatoenergy.ru
   introTitle: 🕒 Проект работает ежедневно с 08:00 по 00:00.
