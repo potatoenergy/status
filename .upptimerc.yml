@@ -1,11 +1,6 @@
 ---
 assignees:
   - ponfertato
-commitMessages:
-  graphsUpdate: ':bento:graphs: update'
-  readmeContent: ':pencil:README: update'
-  statusChange: '$EMOJI$SITE_NAME: $STATUS ($RESPONSE_CODE in $RESPONSE_TIME ms)'
-  summaryJson: ':card_file_box:summary: update'
 i18n:
   activeIncidentSummary: 'Создан $DATE, сообщений: $POSTS'
   activeIncidents: Активные инциденты
