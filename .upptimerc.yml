@@ -102,6 +102,10 @@ sites:
     port: 25565
     slug: minecraft-server
     url: connect.potatoenergy.ru
+  - check: tcp-ping
+    name: API
+    slug: api
+    url: connect.potatoenergy.ru
 status-website:
   cname: status.potatoenergy.ru
   introTitle: 🕒 Проект работает ежедневно с 08:00 по 00:00.
