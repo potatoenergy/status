@@ -4,7 +4,7 @@ assignees:
 commitMessages:
   graphsUpdate: ':bento:graphs: update'
   readmeContent: ':pencil:README: update'
-  statusChange: ':stethoscope:$SITE_NAME: $STATUS ($RESPONSE_CODE in $RESPONSE_TIME ms)'
+  statusChange: '$EMOJI$SITE_NAME: $STATUS ($RESPONSE_CODE in $RESPONSE_TIME ms)'
   summaryJson: ':card_file_box:summary: update'
 i18n:
   activeIncidentSummary: 'Создан $DATE, сообщений: $POSTS'
@@ -71,15 +71,14 @@ i18n:
 owner: potatoenergy
 repo: status
 sites:
-  - expectedStatusCodes:
-      - 200
-      - 302
-      - 303
-      - 405
-    method: GET
-    name: Open WebUI
-    slug: open-webui
-    url: https://chat.potatoenergy.ru/health
+  - method: GET
+    name: Grafana
+    slug: grafana
+    url: https://grafana.potatoenergy.ru/api/health
+  - method: HEAD
+    name: Mastodon
+    slug: mastodon
+    url: https://social.potatoenergy.ru/health
   - expectedStatusCodes:
       - 200
       - 302
@@ -89,10 +88,15 @@ sites:
     name: Nextcloud
     slug: nextcloud
     url: https://cloud.potatoenergy.ru/login
-  - method: HEAD
-    name: Mastodon
-    slug: mastodon
-    url: https://social.potatoenergy.ru/health
+  - expectedStatusCodes:
+      - 200
+      - 302
+      - 303
+      - 405
+    method: GET
+    name: Open WebUI
+    slug: open-webui
+    url: https://chat.potatoenergy.ru/health
   - check: tcp-ping
     name: Mindustry
     port: 6567
@@ -103,10 +107,6 @@ sites:
     port: 25565
     slug: minecraft-server
     url: connect.potatoenergy.ru
-  - method: GET
-    name: Grafana
-    slug: grafana
-    url: https://grafana.potatoenergy.ru/api/health
 status-website:
   cname: status.potatoenergy.ru
   introTitle: 🕒 Проект работает ежедневно с 08:00 по 00:00.
@@ -120,3 +120,11 @@ status-website:
     - href: https://codeberg.org/potatoenergy
       title: Codeberg
 user-agent: potatoenergy
+workflowSchedule:
+  graphs: 0 0 * * *
+  responseTime: 0 23 * * *
+  staticSite: 0 1 * * *
+  summary: 0 0 * * *
+  updateTemplate: 0 0 * * *
+  updates: 0 3 * * *
+  uptime: '*/5 * * * *'
