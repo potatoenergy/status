@@ -79,6 +79,7 @@ sites:
       - 302
       - 303
       - 401
+    icon: https://nextcloud.com/c/uploads/2022/03/favicon.png
     method: GET
     name: Nextcloud
     slug: nextcloud
