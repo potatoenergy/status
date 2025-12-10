@@ -66,11 +66,13 @@ i18n:
 owner: potatoenergy
 repo: status
 sites:
-  - method: GET
+  - icon: https://grafana.com/static/assets/img/fav32.png
+    method: GET
     name: Grafana
     slug: grafana
     url: https://grafana.potatoenergy.ru/api/health
-  - method: HEAD
+  - icon: https://joinmastodon.org/_next/static/media/favicon-16x16.2cc38863.png
+    method: HEAD
     name: Mastodon
     slug: mastodon
     url: https://social.potatoenergy.ru/health
@@ -89,16 +91,19 @@ sites:
       - 302
       - 303
       - 405
+    icon: https://openwebui.com/favicon.png
     method: GET
     name: Open WebUI
     slug: open-webui
     url: https://chat.potatoenergy.ru/health
   - check: tcp-ping
+    icon: https://mindustrygame.github.io/icon.b09ad385.png
     name: Mindustry
     port: 6567
     slug: mindustry-server
     url: connect.potatoenergy.ru
   - check: tcp-ping
+    icon: https://www.minecraft.net/etc.clientlibs/minecraftnet/clientlibs/clientlib-site/resources/favicon-16x16.png
     name: Minecraft
     port: 25565
     slug: minecraft-server
@@ -119,6 +124,7 @@ status-website:
       title: GitHub
     - href: https://codeberg.org/potatoenergy
       title: Codeberg
+  themeUrl: https://status.potatoenergy.ru/dark.css
 user-agent: potatoenergy
 workflowSchedule:
   graphs: 0 0 * * *
