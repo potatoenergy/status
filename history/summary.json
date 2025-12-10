@@ -4,19 +4,19 @@
     "url": "https://grafana.potatoenergy.ru/api/health",
     "icon": "https://icons.duckduckgo.com/ip3/grafana.com.ico",
     "slug": "grafana",
-    "status": "up",
-    "uptime": "74.40%",
-    "uptimeDay": "66.33%",
+    "status": "down",
+    "uptime": "74.54%",
+    "uptimeDay": "66.29%",
     "uptimeWeek": "66.32%",
     "uptimeMonth": "66.73%",
-    "uptimeYear": "74.40%",
+    "uptimeYear": "74.54%",
     "time": 2126,
-    "timeDay": 1579,
+    "timeDay": 1519,
     "timeWeek": 2723,
     "timeMonth": 2560,
     "timeYear": 2126,
     "dailyMinutesDown": {
-      "2025-12-10": 319,
+      "2025-12-10": 320,
       "2025-12-09": 483,
       "2025-12-08": 491,
       "2025-12-07": 481,
@@ -107,7 +107,7 @@
       "2025-09-13": 487,
       "2025-09-12": 479,
       "2025-09-11": 660,
-      "2025-09-10": 345
+      "2025-09-10": 246
     }
   },
   {
@@ -115,19 +115,19 @@
     "url": "https://social.potatoenergy.ru/health",
     "icon": "https://icons.duckduckgo.com/ip3/joinmastodon.org.ico",
     "slug": "mastodon",
-    "status": "up",
-    "uptime": "74.22%",
-    "uptimeDay": "66.36%",
+    "status": "down",
+    "uptime": "74.58%",
+    "uptimeDay": "66.32%",
     "uptimeWeek": "66.35%",
     "uptimeMonth": "65.60%",
-    "uptimeYear": "74.22%",
+    "uptimeYear": "74.58%",
     "time": 1326,
-    "timeDay": 1419,
+    "timeDay": 1374,
     "timeWeek": 1326,
     "timeMonth": 1327,
     "timeYear": 1326,
     "dailyMinutesDown": {
-      "2025-12-10": 319,
+      "2025-12-10": 320,
       "2025-12-09": 482,
       "2025-12-08": 491,
       "2025-12-07": 481,
@@ -217,8 +217,7 @@
       "2025-09-14": 477,
       "2025-09-13": 486,
       "2025-09-12": 480,
-      "2025-09-11": 660,
-      "2025-09-10": 171
+      "2025-09-11": 351
     }
   },
   {
@@ -226,19 +225,19 @@
     "url": "https://cloud.potatoenergy.ru/login",
     "icon": "https://icons.duckduckgo.com/ip3/nextcloud.com.ico",
     "slug": "nextcloud",
-    "status": "up",
-    "uptime": "78.44%",
-    "uptimeDay": "61.84%",
-    "uptimeWeek": "75.66%",
+    "status": "down",
+    "uptime": "78.79%",
+    "uptimeDay": "61.80%",
+    "uptimeWeek": "75.65%",
     "uptimeMonth": "73.33%",
-    "uptimeYear": "78.44%",
+    "uptimeYear": "78.79%",
     "time": 4145,
-    "timeDay": 3370,
+    "timeDay": 3314,
     "timeWeek": 4290,
     "timeMonth": 4542,
     "timeYear": 4145,
     "dailyMinutesDown": {
-      "2025-12-10": 385,
+      "2025-12-10": 386,
       "2025-12-09": 482,
       "2025-12-08": 469,
       "2025-12-07": 165,
@@ -324,8 +323,7 @@
       "2025-09-17": 486,
       "2025-09-16": 324,
       "2025-09-15": 253,
-      "2025-09-14": 477,
-      "2025-09-13": 174
+      "2025-09-14": 166
     }
   },
   {
@@ -333,18 +331,20 @@
     "url": "https://chat.potatoenergy.ru/health",
     "icon": "https://icons.duckduckgo.com/ip3/openwebui.com.ico",
     "slug": "open-web-ui",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "down",
+    "uptime": "99.94%",
+    "uptimeDay": "99.94%",
+    "uptimeWeek": "99.94%",
+    "uptimeMonth": "99.94%",
+    "uptimeYear": "99.94%",
     "time": 1411,
     "timeDay": 1348,
     "timeWeek": 1348,
     "timeMonth": 1348,
     "timeYear": 1411,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-12-10": 0
+    }
   },
   {
     "name": "Mindustry",
@@ -352,18 +352,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/mindustrygame.github.io.ico",
     "slug": "mindustry",
     "status": "down",
-    "uptime": "0.04%",
-    "uptimeDay": "0.04%",
-    "uptimeWeek": "0.04%",
-    "uptimeMonth": "0.04%",
-    "uptimeYear": "0.04%",
+    "uptime": "0.01%",
+    "uptimeDay": "0.01%",
+    "uptimeWeek": "0.01%",
+    "uptimeMonth": "0.01%",
+    "uptimeYear": "0.01%",
     "time": 149,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 149,
     "dailyMinutesDown": {
-      "2025-12-10": 142
+      "2025-12-10": 713
     }
   },
   {
@@ -372,18 +372,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/www.minecraft.net.ico",
     "slug": "minecraft",
     "status": "down",
-    "uptime": "0.04%",
-    "uptimeDay": "0.04%",
-    "uptimeWeek": "0.04%",
-    "uptimeMonth": "0.04%",
-    "uptimeYear": "0.04%",
+    "uptime": "0.01%",
+    "uptimeDay": "0.01%",
+    "uptimeWeek": "0.01%",
+    "uptimeMonth": "0.01%",
+    "uptimeYear": "0.01%",
     "time": 150,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 150,
     "dailyMinutesDown": {
-      "2025-12-10": 142
+      "2025-12-10": 713
     }
   },
   {
@@ -391,14 +391,14 @@
     "url": "connect.potatoenergy.ru",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "api",
-    "status": "up",
-    "uptime": "78.70%",
-    "uptimeDay": "67.83%",
-    "uptimeWeek": "76.94%",
+    "status": "down",
+    "uptime": "78.78%",
+    "uptimeDay": "67.81%",
+    "uptimeWeek": "76.93%",
     "uptimeMonth": "74.24%",
-    "uptimeYear": "78.70%",
+    "uptimeYear": "78.78%",
     "time": 176,
-    "timeDay": 201,
+    "timeDay": 198,
     "timeWeek": 205,
     "timeMonth": 187,
     "timeYear": 176,
@@ -492,7 +492,7 @@
       "2025-09-14": 459,
       "2025-09-13": 468,
       "2025-09-12": 461,
-      "2025-09-11": 247
+      "2025-09-11": 230
     }
   }
 ]
