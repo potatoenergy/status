@@ -66,12 +66,12 @@ i18n:
 owner: potatoenergy
 repo: status
 sites:
-  - icon: https://grafana.com/static/assets/img/fav32.png
+  - icon: https://external-content.duckduckgo.com/ip3/grafana.com.ico
     method: GET
     name: Grafana
     # slug: grafana
     url: https://grafana.potatoenergy.ru/api/health
-  - icon: https://joinmastodon.org/_next/static/media/favicon-16x16.2cc38863.png
+  - icon: https://external-content.duckduckgo.com/ip3/joinmastodon.org.ico
     method: HEAD
     name: Mastodon
     # slug: mastodon
@@ -81,7 +81,7 @@ sites:
       - 302
       - 303
       - 401
-    icon: https://nextcloud.com/c/uploads/2022/03/favicon.png
+    icon: https://external-content.duckduckgo.com/ip3/nextcloud.com.ico
     method: GET
     name: Nextcloud
     # slug: nextcloud
@@ -91,24 +91,25 @@ sites:
       - 302
       - 303
       - 405
-    icon: https://openwebui.com/favicon.png
+    icon: https://external-content.duckduckgo.com/ip3/openwebui.com.ico
     method: GET
     name: Open WebUI
     # slug: open-webui
     url: https://chat.potatoenergy.ru/health
   - check: tcp-ping
-    icon: https://mindustrygame.github.io/icon.b09ad385.png
+    icon: https://external-content.duckduckgo.com/ip3/mindustrygame.github.io.ico
     name: Mindustry
     port: 6567
     # slug: mindustry-server
     url: connect.potatoenergy.ru
   - check: tcp-ping
-    icon: https://www.minecraft.net/etc.clientlibs/minecraftnet/clientlibs/clientlib-site/resources/favicon-16x16.png
+    icon: https://external-content.duckduckgo.com/ip3/www.minecraft.net.ico
     name: Minecraft
     port: 25565
     # slug: minecraft-server
     url: connect.potatoenergy.ru
   - check: tcp-ping
+    icon: https://external-content.duckduckgo.com/ip3/null.ico
     name: API
     # slug: api
     url: connect.potatoenergy.ru
