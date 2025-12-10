@@ -69,12 +69,12 @@ sites:
   - icon: https://grafana.com/static/assets/img/fav32.png
     method: GET
     name: Grafana
-    slug: grafana
+    # slug: grafana
     url: https://grafana.potatoenergy.ru/api/health
   - icon: https://joinmastodon.org/_next/static/media/favicon-16x16.2cc38863.png
     method: HEAD
     name: Mastodon
-    slug: mastodon
+    # slug: mastodon
     url: https://social.potatoenergy.ru/health
   - expectedStatusCodes:
       - 200
@@ -84,7 +84,7 @@ sites:
     icon: https://nextcloud.com/c/uploads/2022/03/favicon.png
     method: GET
     name: Nextcloud
-    slug: nextcloud
+    # slug: nextcloud
     url: https://cloud.potatoenergy.ru/login
   - expectedStatusCodes:
       - 200
@@ -94,23 +94,23 @@ sites:
     icon: https://openwebui.com/favicon.png
     method: GET
     name: Open WebUI
-    slug: open-web-ui
+    # slug: open-webui
     url: https://chat.potatoenergy.ru/health
   - check: tcp-ping
     icon: https://mindustrygame.github.io/icon.b09ad385.png
     name: Mindustry
     port: 6567
-    slug: mindustry-server
+    # slug: mindustry-server
     url: connect.potatoenergy.ru
   - check: tcp-ping
     icon: https://www.minecraft.net/etc.clientlibs/minecraftnet/clientlibs/clientlib-site/resources/favicon-16x16.png
     name: Minecraft
     port: 25565
-    slug: minecraft-server
+    # slug: minecraft-server
     url: connect.potatoenergy.ru
   - check: tcp-ping
     name: API
-    slug: api
+    # slug: api
     url: connect.potatoenergy.ru
 status-website:
   cname: status.potatoenergy.ru
