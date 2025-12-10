@@ -94,7 +94,7 @@ sites:
     icon: https://openwebui.com/favicon.png
     method: GET
     name: Open WebUI
-    slug: open-webui
+    slug: open-web-ui
     url: https://chat.potatoenergy.ru/health
   - check: tcp-ping
     icon: https://mindustrygame.github.io/icon.b09ad385.png
