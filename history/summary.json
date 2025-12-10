@@ -226,17 +226,17 @@
     "url": "https://cloud.potatoenergy.ru/login",
     "icon": "https://icons.duckduckgo.com/ip3/nextcloud.com.ico",
     "slug": "nextcloud",
-    "status": "up",
-    "uptime": "78.19%",
-    "uptimeDay": "66.39%",
-    "uptimeWeek": "76.31%",
+    "status": "down",
+    "uptime": "78.47%",
+    "uptimeDay": "66.36%",
+    "uptimeWeek": "76.30%",
     "uptimeMonth": "73.48%",
-    "uptimeYear": "78.19%",
-    "time": 4155,
-    "timeDay": 3395,
-    "timeWeek": 4414,
-    "timeMonth": 4590,
-    "timeYear": 4155,
+    "uptimeYear": "78.47%",
+    "time": 4146,
+    "timeDay": 3317,
+    "timeWeek": 4305,
+    "timeMonth": 4551,
+    "timeYear": 4146,
     "dailyMinutesDown": {
       "2025-12-10": 319,
       "2025-12-09": 482,
@@ -325,8 +325,7 @@
       "2025-09-16": 324,
       "2025-09-15": 253,
       "2025-09-14": 477,
-      "2025-09-13": 486,
-      "2025-09-12": 165
+      "2025-09-13": 174
     }
   },
   {
@@ -353,18 +352,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/mindustrygame.github.io.ico",
     "slug": "mindustry",
     "status": "down",
-    "uptime": "0.25%",
-    "uptimeDay": "0.25%",
-    "uptimeWeek": "0.25%",
-    "uptimeMonth": "0.25%",
-    "uptimeYear": "0.25%",
+    "uptime": "0.07%",
+    "uptimeDay": "0.07%",
+    "uptimeWeek": "0.07%",
+    "uptimeMonth": "0.07%",
+    "uptimeYear": "0.07%",
     "time": 149,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 149,
     "dailyMinutesDown": {
-      "2025-12-10": 21
+      "2025-12-10": 76
     }
   },
   {
@@ -373,18 +372,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/www.minecraft.net.ico",
     "slug": "minecraft",
     "status": "down",
-    "uptime": "0.29%",
-    "uptimeDay": "0.29%",
-    "uptimeWeek": "0.29%",
-    "uptimeMonth": "0.29%",
-    "uptimeYear": "0.29%",
+    "uptime": "0.06%",
+    "uptimeDay": "0.06%",
+    "uptimeWeek": "0.06%",
+    "uptimeMonth": "0.06%",
+    "uptimeYear": "0.06%",
     "time": 150,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 150,
     "dailyMinutesDown": {
-      "2025-12-10": 21
+      "2025-12-10": 76
     }
   },
   {
