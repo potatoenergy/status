@@ -353,18 +353,18 @@
     "icon": "https://mindustrygame.github.io/icon.b09ad385.png",
     "slug": "mindustry",
     "status": "down",
-    "uptime": "10.90%",
-    "uptimeDay": "10.90%",
-    "uptimeWeek": "10.90%",
-    "uptimeMonth": "10.90%",
-    "uptimeYear": "10.90%",
+    "uptime": "7.52%",
+    "uptimeDay": "7.52%",
+    "uptimeWeek": "7.52%",
+    "uptimeMonth": "7.52%",
+    "uptimeYear": "7.52%",
     "time": 149,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 149,
     "dailyMinutesDown": {
-      "2025-12-10": 0
+      "2025-12-10": 1
     }
   },
   {
@@ -373,18 +373,18 @@
     "icon": "https://www.minecraft.net/etc.clientlibs/minecraftnet/clientlibs/clientlib-site/resources/favicon-16x16.png",
     "slug": "minecraft",
     "status": "down",
-    "uptime": "12.96%",
-    "uptimeDay": "12.96%",
-    "uptimeWeek": "12.96%",
-    "uptimeMonth": "12.96%",
-    "uptimeYear": "12.96%",
+    "uptime": "7.97%",
+    "uptimeDay": "7.97%",
+    "uptimeWeek": "7.97%",
+    "uptimeMonth": "7.97%",
+    "uptimeYear": "7.97%",
     "time": 150,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 150,
     "dailyMinutesDown": {
-      "2025-12-10": 0
+      "2025-12-10": 1
     }
   },
   {
