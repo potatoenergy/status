@@ -4,19 +4,19 @@
     "url": "https://grafana.potatoenergy.ru/api/health",
     "icon": "https://icons.duckduckgo.com/ip3/grafana.com.ico",
     "slug": "grafana",
-    "status": "up",
-    "uptime": "74.50%",
-    "uptimeDay": "65.97%",
-    "uptimeWeek": "66.05%",
-    "uptimeMonth": "66.66%",
-    "uptimeYear": "74.50%",
+    "status": "down",
+    "uptime": "74.70%",
+    "uptimeDay": "66.49%",
+    "uptimeWeek": "66.07%",
+    "uptimeMonth": "66.67%",
+    "uptimeYear": "74.70%",
     "time": 2119,
-    "timeDay": 1590,
-    "timeWeek": 2245,
+    "timeDay": 1534,
+    "timeWeek": 1942,
     "timeMonth": 2454,
     "timeYear": 2119,
     "dailyMinutesDown": {
-      "2025-12-13": 319,
+      "2025-12-13": 322,
       "2025-12-12": 491,
       "2025-12-11": 494,
       "2025-12-10": 499,
@@ -109,7 +109,7 @@
       "2025-09-14": 478,
       "2025-09-13": 487,
       "2025-09-12": 479,
-      "2025-09-11": 351
+      "2025-09-11": 251
     }
   },
   {
@@ -117,19 +117,19 @@
     "url": "https://social.potatoenergy.ru/health",
     "icon": "https://icons.duckduckgo.com/ip3/joinmastodon.org.ico",
     "slug": "mastodon",
-    "status": "up",
-    "uptime": "74.33%",
-    "uptimeDay": "66.00%",
-    "uptimeWeek": "66.08%",
-    "uptimeMonth": "65.53%",
-    "uptimeYear": "74.33%",
+    "status": "down",
+    "uptime": "74.74%",
+    "uptimeDay": "66.53%",
+    "uptimeWeek": "66.10%",
+    "uptimeMonth": "65.54%",
+    "uptimeYear": "74.74%",
     "time": 1330,
-    "timeDay": 1642,
+    "timeDay": 1528,
     "timeWeek": 1390,
     "timeMonth": 1354,
     "timeYear": 1330,
     "dailyMinutesDown": {
-      "2025-12-13": 319,
+      "2025-12-13": 322,
       "2025-12-12": 490,
       "2025-12-11": 493,
       "2025-12-10": 499,
@@ -221,8 +221,7 @@
       "2025-09-15": 485,
       "2025-09-14": 477,
       "2025-09-13": 486,
-      "2025-09-12": 480,
-      "2025-09-11": 179
+      "2025-09-12": 166
     }
   },
   {
@@ -230,19 +229,19 @@
     "url": "https://cloud.potatoenergy.ru/login",
     "icon": "https://icons.duckduckgo.com/ip3/nextcloud.com.ico",
     "slug": "nextcloud",
-    "status": "up",
-    "uptime": "78.95%",
-    "uptimeDay": "66.03%",
-    "uptimeWeek": "70.48%",
-    "uptimeMonth": "72.11%",
-    "uptimeYear": "78.95%",
+    "status": "down",
+    "uptime": "79.33%",
+    "uptimeDay": "66.56%",
+    "uptimeWeek": "70.45%",
+    "uptimeMonth": "72.12%",
+    "uptimeYear": "79.33%",
     "time": 4198,
-    "timeDay": 3610,
+    "timeDay": 3445,
     "timeWeek": 4709,
     "timeMonth": 4793,
     "timeYear": 4198,
     "dailyMinutesDown": {
-      "2025-12-13": 319,
+      "2025-12-13": 321,
       "2025-12-12": 490,
       "2025-12-11": 487,
       "2025-12-10": 565,
@@ -327,8 +326,7 @@
       "2025-09-21": 485,
       "2025-09-20": 170,
       "2025-09-19": 455,
-      "2025-09-18": 480,
-      "2025-09-17": 169
+      "2025-09-18": 168
     }
   },
   {
@@ -336,19 +334,19 @@
     "url": "https://chat.potatoenergy.ru/health",
     "icon": "https://icons.duckduckgo.com/ip3/openwebui.com.ico",
     "slug": "open-web-ui",
-    "status": "up",
-    "uptime": "64.00%",
-    "uptimeDay": "66.05%",
-    "uptimeWeek": "64.00%",
-    "uptimeMonth": "64.00%",
-    "uptimeYear": "64.00%",
+    "status": "down",
+    "uptime": "70.78%",
+    "uptimeDay": "66.59%",
+    "uptimeWeek": "70.78%",
+    "uptimeMonth": "70.78%",
+    "uptimeYear": "70.78%",
     "time": 1367,
-    "timeDay": 1514,
+    "timeDay": 1632,
     "timeWeek": 1322,
     "timeMonth": 1322,
     "timeYear": 1367,
     "dailyMinutesDown": {
-      "2025-12-13": 320,
+      "2025-12-13": 322,
       "2025-12-12": 489,
       "2025-12-11": 492,
       "2025-12-10": 180
@@ -371,7 +369,7 @@
     "timeMonth": 0,
     "timeYear": 149,
     "dailyMinutesDown": {
-      "2025-12-13": 320,
+      "2025-12-13": 1280,
       "2025-12-12": 1440,
       "2025-12-11": 1440,
       "2025-12-10": 893
@@ -394,7 +392,7 @@
     "timeMonth": 0,
     "timeYear": 150,
     "dailyMinutesDown": {
-      "2025-12-13": 320,
+      "2025-12-13": 1280,
       "2025-12-12": 1440,
       "2025-12-11": 1440,
       "2025-12-10": 892
@@ -405,12 +403,12 @@
     "url": "connect.potatoenergy.ru",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "api",
-    "status": "up",
-    "uptime": "78.42%",
-    "uptimeDay": "67.53%",
+    "status": "down",
+    "uptime": "78.80%",
+    "uptimeDay": "67.98%",
     "uptimeWeek": "72.15%",
-    "uptimeMonth": "73.15%",
-    "uptimeYear": "78.42%",
+    "uptimeMonth": "73.16%",
+    "uptimeYear": "78.80%",
     "time": 176,
     "timeDay": 182,
     "timeWeek": 207,
@@ -508,8 +506,7 @@
       "2025-09-15": 248,
       "2025-09-14": 459,
       "2025-09-13": 468,
-      "2025-09-12": 461,
-      "2025-09-11": 174
+      "2025-09-12": 161
     }
   }
 ]
