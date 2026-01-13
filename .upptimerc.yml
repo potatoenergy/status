@@ -114,7 +114,7 @@ sites:
     url: connect.potatoenergy.ru
 status-website:
   cname: status.potatoenergy.ru
-  introTitle: 🕒 Проект работает ежедневно с 08:00 по 00:00.
+  introTitle: 🥔 Potato Energy — где клубни традиций прорастают в IT-инновации
   logoUrl: https://avatars.githubusercontent.com/u/137938438?s=200&v=4
   name: Potato Energy
   navbar:
