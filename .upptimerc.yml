@@ -115,7 +115,6 @@ sites:
 status-website:
   cname: status.potatoenergy.ru
   introTitle: 🥔 **Potato Energy** — где клубни традиций прорастают в IT-инновации
-  introMessage: *'«Потому что даже космические технологии начинаются с земного картофеля»'*
   logoUrl: https://avatars.githubusercontent.com/u/137938438?s=200&v=4
   name: Potato Energy
   navbar:
