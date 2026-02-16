@@ -109,6 +109,12 @@ sites:
     # slug: minecraft-server
     url: connect.potatoenergy.ru
   - check: tcp-ping
+    icon: https://icons.duckduckgo.com/ip3/www.terraria.org.ico
+    name: Terraria
+    port: 7777
+    # slug: terraria-server
+    url: connect.potatoenergy.ru
+  - check: tcp-ping
     name: API
     # slug: api
     url: connect.potatoenergy.ru
