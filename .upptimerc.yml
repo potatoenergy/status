@@ -115,6 +115,12 @@ sites:
     # slug: terraria-server
     url: connect.potatoenergy.ru
   - check: tcp-ping
+    icon: https://icons.duckduckgo.com/ip3/drawpile.net.ico
+    name: Drawpile
+    port: 27750
+    # slug: drawpile
+    url: connect.potatoenergy.ru
+  - check: tcp-ping
     name: API
     # slug: api
     url: connect.potatoenergy.ru
