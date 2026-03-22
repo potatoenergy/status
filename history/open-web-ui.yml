@@ -1,7 +1,7 @@
 url: https://chat.potatoenergy.ru/health
-status: down
-code: 502
-responseTime: 1455
-lastUpdated: 2026-03-22T15:27:00.615Z
+status: up
+code: 200
+responseTime: 893
+lastUpdated: 2026-03-22T15:46:07.803Z
 startTime: 2025-12-10T08:47:08.291Z
 generator: Upptime <https://github.com/upptime/upptime>
