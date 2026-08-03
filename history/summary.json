@@ -4,11 +4,11 @@
     "url": "https://grafana.potatoenergy.ru/api/health",
     "icon": "https://icons.duckduckgo.com/ip3/grafana.com.ico",
     "slug": "grafana",
-    "status": "up",
+    "status": "down",
     "uptime": "99.20%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "99.20%",
+    "uptimeDay": "98.03%",
+    "uptimeWeek": "99.72%",
+    "uptimeMonth": "99.14%",
     "uptimeYear": "99.20%",
     "time": 1756,
     "timeDay": 781,
@@ -31,7 +31,8 @@
       "2026-05-31": 78,
       "2026-06-10": 176,
       "2026-07-17": 236,
-      "2026-07-24": 114
+      "2026-07-24": 114,
+      "2026-08-03": 28
     }
   },
   {
@@ -39,11 +40,11 @@
     "url": "https://social.potatoenergy.ru/health",
     "icon": "https://icons.duckduckgo.com/ip3/joinmastodon.org.ico",
     "slug": "mastodon",
-    "status": "up",
+    "status": "down",
     "uptime": "97.92%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "99.22%",
+    "uptimeDay": "98.37%",
+    "uptimeWeek": "99.77%",
+    "uptimeMonth": "99.17%",
     "uptimeYear": "97.92%",
     "time": 1271,
     "timeDay": 1049,
@@ -71,7 +72,8 @@
       "2026-05-31": 73,
       "2026-06-10": 171,
       "2026-07-17": 231,
-      "2026-07-24": 109
+      "2026-07-24": 109,
+      "2026-08-03": 23
     }
   },
   {
@@ -79,12 +81,12 @@
     "url": "https://cloud.potatoenergy.ru/login",
     "icon": "https://icons.duckduckgo.com/ip3/nextcloud.com.ico",
     "slug": "nextcloud",
-    "status": "up",
-    "uptime": "99.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "99.24%",
-    "uptimeYear": "99.00%",
+    "status": "down",
+    "uptime": "98.99%",
+    "uptimeDay": "98.70%",
+    "uptimeWeek": "99.81%",
+    "uptimeMonth": "99.20%",
+    "uptimeYear": "98.99%",
     "time": 3943,
     "timeDay": 3372,
     "timeWeek": 4243,
@@ -114,7 +116,8 @@
       "2026-05-31": 68,
       "2026-06-10": 166,
       "2026-07-17": 226,
-      "2026-07-24": 105
+      "2026-07-24": 105,
+      "2026-08-03": 19
     }
   },
   {
@@ -122,11 +125,11 @@
     "url": "https://chat.potatoenergy.ru/health",
     "icon": "https://icons.duckduckgo.com/ip3/openwebui.com.ico",
     "slug": "open-web-ui",
-    "status": "up",
+    "status": "down",
     "uptime": "98.72%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "98.77%",
-    "uptimeMonth": "98.98%",
+    "uptimeDay": "99.05%",
+    "uptimeWeek": "98.63%",
+    "uptimeMonth": "98.95%",
     "uptimeYear": "98.72%",
     "time": 1186,
     "timeDay": 1260,
@@ -155,7 +158,8 @@
       "2026-06-10": 161,
       "2026-07-17": 222,
       "2026-07-24": 100,
-      "2026-07-30": 124
+      "2026-07-30": 124,
+      "2026-08-03": 14
     }
   },
   {
@@ -164,11 +168,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/mindustrygame.github.io.ico",
     "slug": "mindustry",
     "status": "down",
-    "uptime": "45.09%",
+    "uptime": "45.04%",
     "uptimeDay": "0.00%",
     "uptimeWeek": "0.00%",
     "uptimeMonth": "0.00%",
-    "uptimeYear": "45.09%",
+    "uptimeYear": "45.04%",
     "time": 171,
     "timeDay": 0,
     "timeWeek": 0,
@@ -181,7 +185,7 @@
       "2026-01-30": 315,
       "2026-02-19": 309,
       "2026-03-15": 60,
-      "2026-08-03": 628,
+      "2026-08-03": 991,
       "2026-08-02": 1440,
       "2026-08-01": 1440,
       "2026-07-31": 1440,
@@ -319,11 +323,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/www.minecraft.net.ico",
     "slug": "minecraft",
     "status": "down",
-    "uptime": "37.66%",
+    "uptime": "37.62%",
     "uptimeDay": "55.09%",
     "uptimeWeek": "7.87%",
     "uptimeMonth": "0.00%",
-    "uptimeYear": "37.66%",
+    "uptimeYear": "37.62%",
     "time": 179,
     "timeDay": 169,
     "timeWeek": 169,
@@ -483,7 +487,7 @@
       "2026-03-29": 1440,
       "2026-03-28": 1440,
       "2026-03-27": 976,
-      "2026-08-03": 1
+      "2026-08-03": 363
     }
   },
   {
@@ -492,11 +496,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/www.terraria.org.ico",
     "slug": "terraria",
     "status": "down",
-    "uptime": "17.47%",
+    "uptime": "17.44%",
     "uptimeDay": "0.00%",
     "uptimeWeek": "0.00%",
     "uptimeMonth": "0.00%",
-    "uptimeYear": "17.47%",
+    "uptimeYear": "17.44%",
     "time": 172,
     "timeDay": 0,
     "timeWeek": 0,
@@ -515,7 +519,7 @@
       "2026-03-09": 1440,
       "2026-03-08": 1440,
       "2026-03-07": 1193,
-      "2026-08-03": 628,
+      "2026-08-03": 991,
       "2026-08-02": 1440,
       "2026-08-01": 1440,
       "2026-07-31": 1440,
@@ -652,11 +656,11 @@
     "url": "connect.potatoenergy.ru",
     "icon": "https://icons.duckduckgo.com/ip3/drawpile.net.ico",
     "slug": "drawpile",
-    "status": "up",
+    "status": "down",
     "uptime": "98.62%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "99.28%",
+    "uptimeDay": "99.68%",
+    "uptimeWeek": "99.95%",
+    "uptimeMonth": "99.27%",
     "uptimeYear": "98.62%",
     "time": 172,
     "timeDay": 138,
@@ -674,7 +678,8 @@
       "2026-05-31": 47,
       "2026-06-10": 149,
       "2026-07-17": 218,
-      "2026-07-24": 96
+      "2026-07-24": 96,
+      "2026-08-03": 5
     }
   },
   {
@@ -682,9 +687,9 @@
     "url": "connect.potatoenergy.ru",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "api",
-    "status": "up",
+    "status": "down",
     "uptime": "99.27%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.97%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.30%",
     "uptimeYear": "99.27%",
@@ -707,7 +712,8 @@
       "2026-05-31": 42,
       "2026-06-10": 148,
       "2026-07-17": 213,
-      "2026-07-24": 92
+      "2026-07-24": 92,
+      "2026-08-03": 0
     }
   }
 ]
