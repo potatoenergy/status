@@ -66,6 +66,16 @@ i18n:
 owner: potatoenergy
 repo: status
 sites:
+  - icon: https://icons.duckduckgo.com/ip3/gohugo.io.ico
+    method: GET
+    name: Site
+    # slug: site
+    url: https://potatoenergy.ru/blog/
+  - icon: https://upptime.js.org/img/icon.svg
+    method: GET
+    name: Status
+    # slug: status
+    url: https://status.potatoenergy.ru/
   - icon: https://icons.duckduckgo.com/ip3/grafana.com.ico
     method: GET
     name: Grafana
