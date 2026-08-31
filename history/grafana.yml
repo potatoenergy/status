@@ -1,7 +1,7 @@
 url: https://grafana.potatoenergy.ru/api/health
 status: up
 code: 200
-responseTime: 860
-lastUpdated: 2026-08-30T01:07:48.956Z
+responseTime: 1041
+lastUpdated: 2026-08-31T01:08:27.585Z
 startTime: 2025-08-11T06:54:38.478Z
 generator: Upptime <https://github.com/upptime/upptime>
