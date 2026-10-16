@@ -1,7 +1,7 @@
 url: https://grafana.potatoenergy.ru/api/health
 status: down
 code: 502
-responseTime: 795
-lastUpdated: 2026-10-15T01:16:05.484Z
+responseTime: 624
+lastUpdated: 2026-10-16T01:01:30.715Z
 startTime: 2025-08-11T06:54:38.478Z
 generator: Upptime <https://github.com/upptime/upptime>
