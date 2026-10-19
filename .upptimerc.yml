@@ -134,6 +134,18 @@ sites:
     name: API
     # slug: api
     url: connect.potatoenergy.ru
+  - check: tcp-ping
+    icon: https://icons.duckduckgo.com/ip3/www.iana.org.ico
+    name: DNS
+    port: 853
+    # slug: dns
+    url: dns.potatoenergy.ru
+  - check: tcp-ping
+    icon: https://icons.duckduckgo.com/ip3/mqtt.org.ico
+    name: MQTT
+    port: 8883
+    # slug: mqtt
+    url: mqtt.potatoenergy.ru
 status-website:
   cname: status.potatoenergy.ru
   introTitle: 🥔 **Potato Energy** — где клубни традиций прорастают в IT-инновации
